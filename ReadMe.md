@@ -92,3 +92,6 @@ Little note for or contracts.ts:
   and apollo client is what we use to make queries to our graphql
   then we add the graphql to our file and query our file then we go to our app.js whwere we are wrapping everything with moralis and we need to wrap it also in apollo and we intialise using apollo so we have to import from @apollo/client
   We define our client
+  And now we update our code to get our queries from apollo and not moralis query.
+  We create a new file subgraphqueries ujnder our constants file
+  And now we would be getting our images from graph and not moralis, now hosting our dApp
