@@ -74,7 +74,7 @@ Then we move forward to the contract.ts as this is the file that tells our subgr
 graph codegen helps us write typescript, any time we update schema we have to run graph codegen
 Little note for or contracts.ts:
 
-- Each item needs a unique ID that we have to create
+Each item needs a unique ID that we have to create
   -we have to save any event to our graph
   -update our actuveItem
   In typeScript we have to define the type of our params e.g tokenId: BigInt and add what it returns
