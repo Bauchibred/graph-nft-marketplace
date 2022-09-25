@@ -54,7 +54,11 @@ Back in your hardhat project, mint and list an NFT with:
 
 ```
 yarn hardhat run scripts/mint-and-list-item.js --network goerli
+
+
 ```
+
+MORE EXPLANATION ON CODE
 
 After yarn adding the CLI using yarn global add @graphprotocol/graph-cli
 we then init our graph using graph init --studio nft-marketplace
